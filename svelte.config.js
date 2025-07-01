@@ -1,5 +1,7 @@
 import sveltePreprocess from 'svelte-preprocess';
 import { vitePreprocess } from '@sveltejs/vite-plugin-svelte';
+import adapter from '@sveltejs/adapter-static';
+
 
 let adapter;
 if (process.env.VERCEL) {
