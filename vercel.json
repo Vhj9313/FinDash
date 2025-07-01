@@ -1,0 +1,10 @@
+{
+    "builds": [
+      {
+        "src": "src/App.svelte",
+        "use": "@sveltejs/adapter-static"
+      }
+    ],
+    "outputDirectory": "build"
+  }
+  
