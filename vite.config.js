@@ -2,11 +2,8 @@ import { svelte } from '@sveltejs/vite-plugin-svelte';
 
 /** @type {import('vite').UserConfig} */
 export default {
-  base: './', // <-- IMPORTANT for Vercel deployments
+  base: './', // critical for correct asset loading
   plugins: [svelte()],
-  server: {
-    // hmr: true,  // not needed unless customizing HMR
-  },
   build: {
     outDir: 'dist'
   }
