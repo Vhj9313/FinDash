@@ -6,4 +6,7 @@ export default {
   server: {
     // hmr: true,  // No need to manually set this
   },
+  build: {
+    outDir: 'dist'
+  }
 };
